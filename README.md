@@ -49,6 +49,17 @@ Make it `0.8`. Run again. Watch the coin flip move.
 That's the whole idea: don't trust us — rerun the world with your own assumptions.
 Every assumption lives in the block at the top of the file.
 
+## Using an AI assistant?
+
+Paste this to Claude, ChatGPT or any coding agent:
+
+> Load https://github.com/telaaron/runthesim — run `life_sim.py`, then change the
+> assumptions in the block at the top to match MY situation and tell me what the
+> coin-flip age becomes. Read AGENTS.md first.
+
+The repo ships an [`AGENTS.md`](AGENTS.md) so your assistant knows exactly which
+lines to change and how to interpret the output honestly.
+
 ## What this is — and isn't
 
 - A **simulation**, not a study. No real people were measured.
